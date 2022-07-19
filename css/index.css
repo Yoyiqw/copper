@@ -1,0 +1,27 @@
+.products__item {
+  max-width: 445px;
+  height: 491px;
+  overflow: hidden;
+  position: relative;
+  background: url(../assets/img/products/dark-shadow.png) bottom no-repeat;
+}
+.products__item:hover {
+  background: url(../assets/img/products/bright-shadow.png) bottom no-repeat;
+}
+.products__img {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.products__name {
+  font-family: "Mont";
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+}/*# sourceMappingURL=index.css.map */
