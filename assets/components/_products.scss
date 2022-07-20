@@ -1,8 +1,12 @@
 .products {
-
+    &__content {
+        display: flex;
+        width: 100%;
+    }
     &__item {
 
         max-width: 445px;
+        margin: 0 auto;
         height: 491px;
         overflow: hidden;
         position: relative;
@@ -12,7 +16,6 @@
         background: url(../assets/img/products/bright-shadow.png)bottom no-repeat;
         }
     }
-
     &__img {
 
         max-width: 100%;
@@ -21,7 +24,6 @@
         left: 0;
         z-index: -1;
     }
-
     &__name {
 
         font-family: 'Mont';
