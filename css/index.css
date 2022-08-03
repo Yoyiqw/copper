@@ -1,5 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
 body {
   margin: 0;
+  font-family: "Mont";
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .products__content {
@@ -33,4 +40,40 @@ body {
   color: #fff;
   font-weight: 400;
   font-size: 30px;
+}
+
+.note__info {
+  font-weight: 400;
+  font-size: 50px;
+  color: #031412;
+  width: 650px;
+  height: 37px;
+  margin: 130px auto;
+}
+.note__title {
+  font-weight: 800;
+  font-size: 20px;
+  color: #031412;
+  width: 155px;
+  height: 19px;
+  font-family: "Mont";
+}
+.note__description {
+  font-weight: 400;
+  font-size: 14px;
+  color: #031412;
+  width: 308px;
+  height: 57px;
+}
+.note__more {
+  font-weight: 800;
+  font-size: 14px;
+  color: #E4A16F;
+  width: 110px;
+  height: 19px;
+  position: relative;
+}
+.note__arrow {
+  position: absolute;
+  margin: 7.5px;
 }/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,34 @@
+.note {
+    &__info {
+        @include font (400, 50px, $text-LightBlack);
+        width: 650px;
+        height: 37px;
+        margin: 130px auto;
+    }
+
+    &__title {
+        @include font (800, 20px, $text-LightBlack);
+        width: 155px;
+        height: 19px;
+        font-family: "Mont";
+    }
+
+    &__description {
+        @include font (400, 14px, $text-LightBlack);
+        width: 308px;
+        height: 57px;
+    }
+
+    &__more {
+        @include font (800, 14px, $text-gradient);
+        width: 110px;
+        height: 19px;
+        position: relative;
+        
+    }
+
+    &__arrow {
+        position: absolute;
+        margin: 7.5px;  
+    }
+}
